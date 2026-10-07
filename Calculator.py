@@ -4,8 +4,8 @@ import streamlit as st
 st.title("My Calculator")
 
 #Take input
-num1= st.number_input("Enter first number)
-num2= st.number_input("Enter first number)
+num1= st.number_input("Enter first number")
+num2= st.number_input("Enter first number")
 
 #Select operation
 operation=st.selectbox(
